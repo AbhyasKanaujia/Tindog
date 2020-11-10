@@ -5,27 +5,15 @@
 */
 body {
   font-family: "Montserrat", sans-serif;
-}
-#title {
-  background-color: #ff4c68;
-  color: white;
+  text-align: center;
 }
 
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-h3 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
@@ -35,7 +23,31 @@ p {
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
+}
+
+/* heading */
+.big-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
 }
 
 /* Navigation Bar */
@@ -62,7 +74,12 @@ p {
   margin: 5% 3% 5% 0;
 }
 
-/* Title image */
+/* title */
+
+#title .container-fluid {
+  padding: 3% 7% 5%;
+  text-align: left;
+}
 
 .title-image {
   width: 60%;
@@ -74,14 +91,15 @@ p {
 /* Features Section */
 
 #features {
-  padding: 7% 15%;
-  background-color: white;
   position: relative;
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
+}
+
+.feature-text {
+  font-size: 1.5rem;
 }
 
 .feature-icon {
@@ -96,9 +114,12 @@ p {
 /* Testimonial Section */
 
 #testimonials {
-  text-align: center;
-  background-color: #ff4c68;
-  color: white;
+  background-color: #ef8172;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -107,13 +128,8 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
-}
-
 #press {
-  background-color: #ff4c68;
-  text-align: center;
+  background-color: #ef8172;
   padding-bottom: 3%;
 }
 
@@ -126,13 +142,26 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.plan-name-text {
+  font-size: 1.5rem;
 }
 
 .pricing-column {
   padding: 3% 2%;
 }
 
+/* Footer */
+
+.footer-social-media {
+  margin: 0 50px;
+}
 @media (max-width: 980px) {
   .title-image {
     position: static;
