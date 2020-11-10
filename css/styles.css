@@ -174,7 +174,7 @@ p {
     font-size: 10px;
   }
 
-  #title {
+  #title .container-fluid {
     text-align: center;
   }
 }
