@@ -167,6 +167,12 @@ p {
     position: static;
     transform: rotate(0);
   }
+}
+
+@media (max-width: 640px) {
+  :root {
+    font-size: 10px;
+  }
 
   #title {
     text-align: center;
